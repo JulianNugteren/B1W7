@@ -1,0 +1,76 @@
+body{
+	background:url("BlueBackground.png") no-repeat center center fixed
+}
+div{
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 54%;
+	float: left;
+	font-size: 20px;
+	border-style: solid;
+	border-color: black;
+	border-width: 4px;
+	border-radius: 5px;
+	padding: 10px;
+	margin-right: 20px;
+	font-family: Roboto;
+}
+.header{
+	font-size: 40px;
+	margin: 10px;
+}
+.divheader{
+	margin-bottom: 20px;
+	width: 60%;
+}
+.button{
+	font-family: georgia;
+	font-weight: bolder;
+	margin: 5px;
+	margin-left: 10px;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	width: 250px;
+	color: black;
+	background-color: #17E1C7;
+	border-color: #5E471C;
+}
+.button:hover {background-color: #23B1EC}
+.button:active {
+	background-color: #178AE1;
+	transform: translateY(2px);
+}
+ 29  RobotArmMainPage.html 
+Viewed
+@@ -0,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The main page</title>
+		<link rel="stylesheet" type="text/css" href="RobotArm.css">
+	</head>
+	<body>
+		<div class="divheader">
+			<p class="header">Dit is de redirectory voor al mijn robot arm opdrachten.</p>
+		</div>
+		<div>
+			<a href="Opdracht1.html"><button class="button">Opdracht 1</button></a>
+			<a href="Opdracht2.html"><button class="button">Opdracht 2</button></a>
+			<a href="Opdracht3.html"><button class="button">Opdracht 3</button></a><br>
+			<a href="Opdracht4.html"><button class="button">Opdracht 4</button></a>
+			<a href="Opdracht5.html"><button class="button">Opdracht 5</button></a>
+			<a href="Opdracht6.html"><button class="button">Opdracht 6</button></a><br>
+			<a href="Opdracht7.html"><button class="button">Opdracht 7</button></a>
+			<a href="Opdracht8.html"><button class="button">Opdracht 8</button></a>
+			<a href="Opdracht9.html"><button class="button">Opdracht 9</button></a><br>
+			<a href="Opdracht10.html"><button class="button">Opdracht 10</button></a>
+			<a href="Opdracht11.html"><button class="button">Opdracht 11</button></a>
+			<a href="Opdracht12.html"><button class="button">Opdracht 12</button></a>
+			<a href="Opdracht13.html"><button class="button">Opdracht 13</button></a><br><br><br>
+			<a href="file:///D:/School%20programmas/Sublime%20Text%203/Sublime%20Projects/EduardWilleAO.github.io/MainSite.html"><button class="button">Back To Home</button></a>
+		</div>
+
+	</body>
+</html> 
